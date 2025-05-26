@@ -4,7 +4,7 @@ services:
     env: node
     buildCommand: chmod +x build.sh && ./build.sh
     startCommand: chmod +x start.sh && ./start.sh
-    nodeVersion: 20.x
+
     # 全ての環境変数をここに定義し、.envファイルなしでも動作するようにする
     envVars:
       - key: NODE_ENV
